@@ -8,7 +8,7 @@ def open_start_menu():
 
 class YoutubeUnpauser:
 	__timesUnpaused = 0
-	''' Functionality to progressively reduce the time threshold for new look ups
+	''' TODO: Functionality to progressively reduce the time threshold for new look ups
 		for example storing the exact time of the last successful find & click operation
 		and returning a time.sleep(value) for the while loop based on that. For example:
 		__sleepThresholdAfterFindFailed = int ( 300 / ( currentTime() - __timeOfLastSuccess ) in seconds )  
